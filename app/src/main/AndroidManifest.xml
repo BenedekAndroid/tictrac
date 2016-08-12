@@ -10,8 +10,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".TicTracApplication">
-        <activity android:name=".TicTracActivity">
+        android:name=".application.TicTracApplication">
+        <activity android:name=".activity.TicTracActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

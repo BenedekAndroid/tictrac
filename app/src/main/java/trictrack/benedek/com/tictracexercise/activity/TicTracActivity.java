@@ -1,11 +1,10 @@
-package trictrack.benedek.com.tictracexercise;
+package trictrack.benedek.com.tictracexercise.activity;
 
 
 import android.app.ActionBar;
 import android.app.Activity;
 
 import android.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import java.util.List;
@@ -13,6 +12,9 @@ import java.util.concurrent.ExecutionException;
 
 import trictrack.benedek.com.tictracexercise.Dao.Dao;
 import trictrack.benedek.com.tictracexercise.Dao.User;
+import trictrack.benedek.com.tictracexercise.R;
+import trictrack.benedek.com.tictracexercise.application.TicTracApplication;
+import trictrack.benedek.com.tictracexercise.fragment.TickTracFragment;
 import trictrack.benedek.com.tictracexercise.services.DownloadUserDataAsyncTask;
 
 public class TicTracActivity extends Activity {

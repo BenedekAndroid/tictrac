@@ -1,4 +1,4 @@
-package trictrack.benedek.com.tictracexercise;
+package trictrack.benedek.com.tictracexercise.fragment;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -16,12 +16,14 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 import trictrack.benedek.com.tictracexercise.Dao.Dao;
 import trictrack.benedek.com.tictracexercise.Dao.User;
+import trictrack.benedek.com.tictracexercise.R;
+import trictrack.benedek.com.tictracexercise.activity.TicTracActivity;
+import trictrack.benedek.com.tictracexercise.application.TicTracApplication;
 
 /**
  * Created by Benedek on 2016.08.12..
@@ -118,8 +120,6 @@ public class TickTracFragment extends Fragment {
                     String selectedPosition = "-1";
                     if (users.get(position).getId().equals(TicTracApplication.getInstance().getRowId())) {
                         selectedPosition = "-1";
-                        name.setTextColor(Color.BLACK);
-                        name.setTypeface(null, Typeface.NORMAL);
                         activity.setTitle(activity.getResources().getString(R.string.app_name));
                     } else {
                         selectedPosition = users.get(position).getId();

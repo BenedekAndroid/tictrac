@@ -1,4 +1,4 @@
-package trictrack.benedek.com.tictracexercise;
+package trictrack.benedek.com.tictracexercise.application;
 
 import android.app.Application;
 import android.content.Context;
