@@ -14,8 +14,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import trictrack.benedek.com.tictracexercise.Dao.Dao;
-import trictrack.benedek.com.tictracexercise.Dao.User;
+import trictrack.benedek.com.tictracexercise.dao.User;
 
 /**
  * Created by Benedek on 2016.08.12..

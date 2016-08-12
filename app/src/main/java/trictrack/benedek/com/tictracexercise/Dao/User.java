@@ -1,4 +1,4 @@
-package trictrack.benedek.com.tictracexercise.Dao;
+package trictrack.benedek.com.tictracexercise.dao;
 
 /**
  * Created by Benedek on 2016.08.12..

@@ -19,8 +19,8 @@ import android.widget.TextView;
 import java.util.Iterator;
 import java.util.List;
 
-import trictrack.benedek.com.tictracexercise.Dao.Dao;
-import trictrack.benedek.com.tictracexercise.Dao.User;
+import trictrack.benedek.com.tictracexercise.dao.Dao;
+import trictrack.benedek.com.tictracexercise.dao.User;
 import trictrack.benedek.com.tictracexercise.R;
 import trictrack.benedek.com.tictracexercise.activity.TicTracActivity;
 import trictrack.benedek.com.tictracexercise.application.TicTracApplication;

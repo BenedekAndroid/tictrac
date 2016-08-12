@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import trictrack.benedek.com.tictracexercise.Dao.Dao;
+import trictrack.benedek.com.tictracexercise.dao.Dao;
 import trictrack.benedek.com.tictracexercise.services.DownloadUserDataAsyncTask;
 
 /**

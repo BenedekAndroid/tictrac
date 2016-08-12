@@ -10,8 +10,8 @@ import android.os.Bundle;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-import trictrack.benedek.com.tictracexercise.Dao.Dao;
-import trictrack.benedek.com.tictracexercise.Dao.User;
+import trictrack.benedek.com.tictracexercise.dao.Dao;
+import trictrack.benedek.com.tictracexercise.dao.User;
 import trictrack.benedek.com.tictracexercise.R;
 import trictrack.benedek.com.tictracexercise.application.TicTracApplication;
 import trictrack.benedek.com.tictracexercise.fragment.TickTracFragment;

@@ -1,4 +1,4 @@
-package trictrack.benedek.com.tictracexercise.Dao;
+package trictrack.benedek.com.tictracexercise.dao;
 
 import android.content.ContentValues;
 import android.content.Context;
